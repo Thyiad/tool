@@ -1,0 +1,15 @@
+﻿server_addr: "ittun.com:44433"
+trust_host_root_certs: false
+tunnels:
+    ssh:
+       remote_port: 51001      
+       proto:
+         tcp: "192.168.57.131:22"
+    mstsc:
+        remote_port: 52222      
+        proto:
+         tcp: "192.168.57.136:3389"
+    web:
+     subdomain: "thyiad" #定义服务器分配域名前缀
+     proto:
+       http: 9999

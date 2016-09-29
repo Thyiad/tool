@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metacharacters>
+  <group name="元字符">
+    <item>
+      <char>.</char>
+      <desc>.　匹配任意字符</desc>
+    </item>
+    <item>
+      <char>\d</char>
+      <desc>\d 匹配任意数字</desc>
+    </item>
+    <item>
+      <char>\D</char>
+      <desc>\D 匹配非数字</desc>
+    </item>
+    <item>
+      <char>\s</char>
+      <desc>\s 匹配任意空白字符</desc>
+    </item>
+    <item>
+      <char>\S</char>
+      <desc>\S 匹配非空白字符</desc>
+    </item>
+    <item>
+      <char>\w</char>
+      <desc>\w 单词中的字符</desc>
+    </item>
+    <item>
+      <char>\W</char>
+      <desc>\W 非单词中的字符</desc>
+    </item>
+    <item>
+      <char>(?&lt;name&gt;)</char>
+      <desc>(?&lt;name&gt;Reg) 命名分组(同: (?'name'Reg))</desc>
+    </item>
+	<item>
+      <char>\k&lt;name&gt;</char>
+      <desc>\k&lt;name&gt; 引用命名分组(同: \k'name')</desc>
+    </item>
+	<item>
+      <char>\num</char>
+      <desc>\num 引用数字分组</desc>
+    </item>
+	<item>
+      <char>${name}</char>
+      <desc>${name} 替换中引用命名分组</desc>
+    </item>
+	<item>
+      <char>$num</char>
+      <desc>$num 替换中引用数字分组</desc>
+    </item>
+  </group>
+  <group name="量词">
+    <item>
+      <char>*</char>
+      <desc>*　0或任意次</desc>
+    </item>
+    <item>
+      <char>*?</char>
+      <desc>*? 0或任意次(忽略优先)</desc>
+    </item>
+    <item>
+      <char>+</char>
+      <desc>+　一次或多次</desc>
+    </item>
+    <item>
+      <char>+?</char>
+      <desc>+　一次或多次(忽略优先)</desc>
+    </item>
+    <item>
+      <char>?</char>
+      <desc>?  可选项0或一次</desc>
+    </item>
+    <item>
+      <char>??</char>
+      <desc>?? 可选项0或一次(忽略优先)</desc>
+    </item>
+    <item>
+      <char>{m}</char>
+      <desc>{m} 匹配m次</desc>
+    </item>
+    <item>
+      <char>{m,n}</char>
+      <desc>{m,n}　至少m次，至多n次</desc>
+    </item>
+    <item>
+      <char>{m,n}?</char>
+      <desc>{m,n}? 至少m次，至多n次(忽略优先)</desc>
+    </item>
+  </group>
+  <group name="分界符">
+    <item>
+      <char>^</char>
+      <desc>^　匹配行首</desc>
+    </item>
+    <item>
+      <char>$</char>
+      <desc>$  匹配行尾</desc>
+    </item>
+    <item>
+      <char>\b</char>
+      <desc>\b　单词分界符</desc>
+    </item>
+    <item>
+      <char>\B</char>
+      <desc>\B  非单词分界符(匹配不是单词开头或结束的位置)</desc>
+    </item>
+    <item>
+      <char>\A</char>
+      <desc>\A  字符开始</desc>
+    </item>
+    <item>
+      <char>\Z</char>
+      <desc>\Z  字符结束</desc>
+    </item>
+  </group>
+  <group name="环视">
+    <item>
+      <char>(...)</char>
+      <desc>(...) 分组捕获</desc>
+    </item>
+    <item>
+      <char>(?:...)</char>
+      <desc>(?:...) 不分组</desc>
+    </item>
+  </group>
+</metacharacters>

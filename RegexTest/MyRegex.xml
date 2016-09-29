@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regex>
+  <item>
+    <title>匹配HTML标记</title>
+    <pattern>&lt;(\S*?)[^&gt;]*&gt;.*?&lt;/\1&gt;|&lt;.*? /&gt;
+</pattern>
+    <description>匹配HTML标记</description>
+  </item>
+  <item>
+    <title>匹配Email地址</title>
+    <pattern>\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*</pattern>
+    <description>匹配Email地址</description>
+  </item>
+  <item>
+    <title>匹配网址URL</title>
+    <pattern>[a-zA-z]+://[^\s]*</pattern>
+    <description>
+    </description>
+  </item>
+  <item>
+    <title>匹配帐号是否合法</title>
+    <pattern>^[a-zA-Z][a-zA-Z0-9_]{4,15}$
+</pattern>
+    <description>字母开头，允许5-16字节，允许字母数字下划线</description>
+  </item>
+  <item>
+    <title>匹配国内电话号码</title>
+    <pattern>\d{3}-\d{8}|\d{4}-\d{7}</pattern>
+    <description>匹配形式如 0511-4405222 或 021-87888822</description>
+  </item>
+  <item>
+    <title>匹配空白行</title>
+    <pattern>\n\s*\r</pattern>
+    <description>可以用来删除空白行</description>
+  </item>
+  <item>
+    <title>匹配首尾空白字符</title>
+    <pattern>^\s*|\s*$</pattern>
+    <description>可以用来删除行首行尾的空白字符(包括空格、制表符、换页符等等)，非常有用的表达式</description>
+  </item>
+  <item>
+    <title>匹配腾讯QQ号</title>
+    <pattern>[1-9][0-9]{4,}</pattern>
+    <description>腾讯QQ号从10000开始</description>
+  </item>
+  <item>
+    <title>匹配中国邮政编码</title>
+    <pattern>[1-9]\d{5}(?!\d)</pattern>
+    <description>中国邮政编码为6位数字</description>
+  </item>
+  <item>
+    <title>匹配身份证</title>
+    <pattern>\d{15}|\d{18}</pattern>
+    <description>中国的身份证为15位或18位</description>
+  </item>
+  <item>
+    <title>匹配ip地址</title>
+    <pattern>\d+\.\d+\.\d+\.\d+</pattern>
+    <description>不那么精确</description>
+  </item>
+  <item>
+    <title>匹配正整数</title>
+    <pattern>^[1-9]\d*$</pattern>
+    <description>
+    </description>
+  </item>
+  <item>
+    <title>匹配负整数</title>
+    <pattern>^-[1-9]\d*$ </pattern>
+    <description>
+    </description>
+  </item>
+  <item>
+    <title>匹配整数</title>
+    <pattern>^-?[1-9]\d*$</pattern>
+    <description>
+    </description>
+  </item>
+  <item>
+    <title>匹配非负整数</title>
+    <pattern>^[1-9]\d*|0$　</pattern>
+    <description>匹配非负整数（正整数 + 0）</description>
+  </item>
+  <item>
+    <title>匹配非正整数</title>
+    <pattern>^-[1-9]\d*|0$</pattern>
+    <description>
+    </description>
+  </item>
+  <item>
+    <title>匹配浮点数</title>
+    <pattern>^-?([1-9]\d*\.\d*|0\.\d*[1-9]\d*|0?\.0+|0)$</pattern>
+    <description>
+    </description>
+  </item>
+  <item>
+    <title>匹配非重复整数</title>
+    <pattern>^(?:([0-9])(?!.*?\1))*$</pattern>
+    <description>匹配任意个不重复的数字</description>
+  </item>
+</regex>
