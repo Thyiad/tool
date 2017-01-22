@@ -1,4 +1,4 @@
-// $.ajaxSetup({'complete':ensureTran})
+ $.ajaxSetup({'complete': function(){ setTimeout(ensureTran, 150) } })
 
 function order(trans)
 {
@@ -22,7 +22,7 @@ function query()
 	if(!$query_ticket.hasClass('btn-disabled')){
 		window.needEnsure = true;
 		$query_ticket.click();
-		setTimeout(ensureTran,150);
+		// setTimeout(ensureTran,150);
 	}else{
 		setTimeout(query, 100);
 	}
@@ -30,9 +30,9 @@ function query()
 
 function ensureTran(xhr){
 	//console.log(xhr);
-	//if(!window.needEnsure){
-	//	return;
-	//}
+	if(!window.needEnsure){
+		return;
+	}
 	var trList = document.querySelectorAll('#t-list>table>tbody>tr');
 	
 	var findedTrList = [].filter.call(trList,(function(tr, trIdx){
@@ -60,12 +60,18 @@ function ensureTran(xhr){
 		return idx1-idx2;
 	});
 	
+	var btnOrder = null;
 	if(findedTrList.length>0){
-		findedTrList[0].querySelector('td:last-child>a').click();
+		btnOrder = findedTrList[0].querySelector('td:last-child>a');
+	}
+	
+	if(btnOrder){
+		btnOrder.click();
 	}else{
 		setTimeout(query, 100);
 	}
-	// window.needEnsure = false;
+	
+	window.needEnsure = false;
 }
 
 order(['T25','T81','T77'])
