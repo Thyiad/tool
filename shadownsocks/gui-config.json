@@ -39,10 +39,30 @@
       "plugin_opts": "",
       "remarks": "jp1",
       "timeout": 5
+    },
+    {
+      "server": "47.52.229.178",
+      "server_port": 54285,
+      "password": "thyiad",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "ali-hk",
+      "timeout": 5
+    },
+    {
+      "server": "185.227.252.188",
+      "server_port": 10618,
+      "password": "HUk8zBbqm6L67RS",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "hk3",
+      "timeout": 5
     }
   ],
   "strategy": null,
-  "index": 0,
+  "index": 4,
   "global": false,
   "enabled": true,
   "shareOverLan": false,
