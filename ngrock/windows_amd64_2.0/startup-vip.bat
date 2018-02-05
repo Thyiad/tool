@@ -1,5 +1,5 @@
 @echo on
 cd %cd%
-sunny.exe clientid 19a6030c664fd30f
+sunny.exe clientid 12307872302389a7
 PAUSE
 goto TUNNEL
