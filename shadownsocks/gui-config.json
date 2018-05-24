@@ -51,6 +51,16 @@
       "timeout": 5
     },
     {
+      "server": "47.52.229.178",
+      "server_port": 10618,
+      "password": "ss123",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "ali-hk",
+      "timeout": 5
+    },
+    {
       "server": "185.227.252.188",
       "server_port": 10618,
       "password": "HUk8zBbqm6L67RS",
@@ -62,7 +72,7 @@
     }
   ],
   "strategy": null,
-  "index": 0,
+  "index": 3,
   "global": false,
   "enabled": true,
   "shareOverLan": false,
