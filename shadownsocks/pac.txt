@@ -6842,7 +6842,8 @@ var rules = [
   "jsfiddle.net",
   "fiddle.jshell.net",
   "developer.mozilla.org",
-  "shadowsocks.la"
+  "shadowsocks.la",
+  "libhive.com"
 ];
 
 /*
