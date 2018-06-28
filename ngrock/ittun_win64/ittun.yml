@@ -12,4 +12,4 @@ tunnels:
     web:
      subdomain: "thyiad" #定义服务器分配域名前缀
      proto:
-       http: 52485
+       http: 16515

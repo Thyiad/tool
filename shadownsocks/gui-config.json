@@ -73,7 +73,7 @@
   ],
   "strategy": null,
   "index": 3,
-  "global": true,
+  "global": false,
   "enabled": true,
   "shareOverLan": false,
   "isDefault": false,
