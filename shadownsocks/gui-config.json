@@ -1,7 +1,7 @@
 {
   "configs": [
     {
-      "server": "185.225.12.28",
+      "server": "185.225.12.149",
       "server_port": 10618,
       "password": "HUk8zBbqm6L67RS",
       "method": "chacha20-ietf-poly1305",
@@ -11,7 +11,7 @@
       "timeout": 5
     },
     {
-      "server": "185.225.15.5",
+      "server": "185.225.15.58",
       "server_port": 10618,
       "password": "HUk8zBbqm6L67RS",
       "method": "chacha20-ietf-poly1305",
@@ -64,15 +64,25 @@
       "server": "185.227.252.188",
       "server_port": 10618,
       "password": "HUk8zBbqm6L67RS",
-      "method": "aes-256-cfb",
+      "method": "chacha20-ietf-poly1305",
       "plugin": "",
       "plugin_opts": "",
       "remarks": "hk3",
       "timeout": 5
+    },
+    {
+      "server": "185.227.254.197",
+      "server_port": 10618,
+      "password": "HUk8zBbqm6L67RS",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "ru1",
+      "timeout": 5
     }
   ],
   "strategy": null,
-  "index": 3,
+  "index": 0,
   "global": false,
   "enabled": true,
   "shareOverLan": false,
