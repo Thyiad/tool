@@ -90,7 +90,7 @@
   "localPort": 1080,
   "pacUrl": null,
   "useOnlinePac": false,
-  "secureLocalPac": true,
+  "secureLocalPac": false,
   "availabilityStatistics": false,
   "autoCheckUpdate": false,
   "checkPreRelease": false,
