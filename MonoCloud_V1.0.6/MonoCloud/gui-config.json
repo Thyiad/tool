@@ -1,0 +1,58 @@
+{
+	"configs" : [
+		{
+			"remarks" : "HK1",
+			"id" : "84A940F0DE27FFB8FF42757D21286170",
+			"server" : "hk1.monocloud.space",
+			"server_port" : 995,
+			"server_udp_port" : 0,
+			"password" : "2kLxGRArcOKh",
+			"method" : "rc4-md5",
+			"protocol" : "auth_aes128_md5",
+			"protocolparam" : "10641:gbDcSLzPTkvx",
+			"obfs" : "tls1.2_ticket_auth",
+			"obfsparam" : "11.au.download.windowsupdate.com",
+			"remarks_base64" : "SEsx",
+			"group" : "monoCloud",
+			"enable" : true,
+			"udp_over_tcp" : false
+		}
+	],
+	"index" : 0,
+	"random" : false,
+	"sysProxyMode" : 2,
+	"shareOverLan" : true,
+	"localPort" : 7078,
+	"localAuthPassword" : "9oCXvrwSw3ra4cDLmiCf",
+	"dnsServer" : "",
+	"reconnectTimes" : 3,
+	"randomAlgorithm" : 0,
+	"randomInGroup" : false,
+	"TTL" : 0,
+	"connectTimeout" : 5,
+	"proxyRuleMode" : 0,
+	"proxyEnable" : false,
+	"pacDirectGoProxy" : false,
+	"proxyType" : 0,
+	"proxyHost" : "127.0.0.1",
+	"proxyPort" : 1081,
+	"proxyAuthUser" : "",
+	"proxyAuthPass" : "",
+	"proxyUserAgent" : "",
+	"authUser" : "",
+	"authPass" : "",
+	"autoBan" : false,
+	"sameHostForSameTarget" : false,
+	"keepVisitTime" : 180,
+	"isHideTips" : true,
+	"nodeFeedAutoUpdate" : false,
+	"serverSubscribes" : [
+
+	],
+	"token" : {
+		"monocloudapp" : "666666"
+	},
+	"portMap" : {
+
+	}
+}
