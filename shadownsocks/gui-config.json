@@ -1,7 +1,7 @@
 {
   "configs": [
     {
-      "server": "185.225.12.28",
+      "server": "185.225.12.149",
       "server_port": 10618,
       "password": "HUk8zBbqm6L67RS",
       "method": "chacha20-ietf-poly1305",
@@ -11,7 +11,7 @@
       "timeout": 5
     },
     {
-      "server": "185.225.15.5",
+      "server": "185.225.15.58",
       "server_port": 10618,
       "password": "HUk8zBbqm6L67RS",
       "method": "chacha20-ietf-poly1305",
@@ -52,9 +52,9 @@
     },
     {
       "server": "47.52.229.178",
-      "server_port": 10678,
-      "password": "thyiad123",
-      "method": "chacha20",
+      "server_port": 10618,
+      "password": "ss123",
+      "method": "chacha20-ietf-poly1305",
       "plugin": "",
       "plugin_opts": "",
       "remarks": "ali-hk",
@@ -64,15 +64,25 @@
       "server": "185.227.252.188",
       "server_port": 10618,
       "password": "HUk8zBbqm6L67RS",
-      "method": "aes-256-cfb",
+      "method": "chacha20-ietf-poly1305",
       "plugin": "",
       "plugin_opts": "",
       "remarks": "hk3",
       "timeout": 5
+    },
+    {
+      "server": "185.227.254.197",
+      "server_port": 10618,
+      "password": "HUk8zBbqm6L67RS",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "ru1",
+      "timeout": 5
     }
   ],
   "strategy": null,
-  "index": 5,
+  "index": 0,
   "global": false,
   "enabled": true,
   "shareOverLan": false,
@@ -80,7 +90,7 @@
   "localPort": 1080,
   "pacUrl": null,
   "useOnlinePac": false,
-  "secureLocalPac": true,
+  "secureLocalPac": false,
   "availabilityStatistics": false,
   "autoCheckUpdate": false,
   "checkPreRelease": false,
