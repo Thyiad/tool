@@ -1,0 +1,161 @@
+{
+  "configs": [
+    {
+      "server": "au1-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Australia 1,Rate:1.00",
+      "timeout": 5
+    },
+    {
+      "server": "de1-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Germany 1,Rate:1.00",
+      "timeout": 5
+    },
+    {
+      "server": "hk3-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Hong Kong 3,Rate:0.01",
+      "timeout": 5
+    },
+    {
+      "server": "hk5-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Hong Kong 5,Rate:1.00",
+      "timeout": 5
+    },
+    {
+      "server": "jp1-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Japan 1,Rate:1.00",
+      "timeout": 5
+    },
+    {
+      "server": "jp2-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Japan 2,Rate:1.00",
+      "timeout": 5
+    },
+    {
+      "server": "jp3-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Japan 3,Rate:1.00",
+      "timeout": 5
+    },
+    {
+      "server": "nl1-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Netherlands 1,Rate:0.10",
+      "timeout": 5
+    },
+    {
+      "server": "ru1-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "Russia 1,Rate:1.20",
+      "timeout": 5
+    },
+    {
+      "server": "uk1-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "United Kingdom 1,Rate:0.10",
+      "timeout": 5
+    },
+    {
+      "server": "us1-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "United States 1,Rate:0.01",
+      "timeout": 5
+    },
+    {
+      "server": "us3-sta47.htone.pw",
+      "server_port": 17238,
+      "password": "XP4nmhnzLJBa6jT",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "United States 3,Rate:0.01",
+      "timeout": 5
+    }
+  ],
+  "strategy": null,
+  "index": 3,
+  "global": false,
+  "enabled": true,
+  "shareOverLan": false,
+  "isDefault": false,
+  "localPort": 1080,
+  "pacUrl": null,
+  "useOnlinePac": false,
+  "secureLocalPac": true,
+  "availabilityStatistics": false,
+  "autoCheckUpdate": false,
+  "checkPreRelease": false,
+  "isVerboseLogging": false,
+  "logViewer": {
+    "topMost": false,
+    "wrapText": false,
+    "toolbarShown": false,
+    "Font": "Consolas, 8pt",
+    "BackgroundColor": "Black",
+    "TextColor": "White"
+  },
+  "proxy": {
+    "useProxy": false,
+    "proxyType": 0,
+    "proxyServer": "",
+    "proxyPort": 0,
+    "proxyTimeout": 3
+  },
+  "hotkey": {
+    "SwitchSystemProxy": "",
+    "SwitchSystemProxyMode": "",
+    "SwitchAllowLan": "",
+    "ShowLogs": "",
+    "ServerMoveUp": "",
+    "ServerMoveDown": ""
+  }
+}

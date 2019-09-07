@@ -52,7 +52,7 @@
     },
     {
       "server": "47.52.229.178",
-      "server_port": 10618,
+      "server_port": 31568,
       "password": "ss123",
       "method": "chacha20-ietf-poly1305",
       "plugin": "",
@@ -82,7 +82,7 @@
     }
   ],
   "strategy": null,
-  "index": 0,
+  "index": 5,
   "global": false,
   "enabled": true,
   "shareOverLan": false,
