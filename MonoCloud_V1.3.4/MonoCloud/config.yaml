@@ -59,7 +59,7 @@ dns:
       - 240.0.0.0/4
 
 proxies:
-  - {name: Monocloud_SS, type: ss, server: lucas.mydarkcloud.info, port: "998", cipher: "chacha20-ietf-poly1305", password: "TZHQLBd9g0jR"}
+  - {name: Monocloud_SS, type: ss, server: raymond.mydarkcloud.info, port: "1027", cipher: "chacha20-ietf-poly1305", password: "TZHQLBd9g0jR"}
 proxy-groups:
   - name: Proxy
     type: select
